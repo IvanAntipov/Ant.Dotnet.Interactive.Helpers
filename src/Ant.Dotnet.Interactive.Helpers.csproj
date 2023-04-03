@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Version>1.0.7</Version>
+    <Authors>IvanAntipov</Authors>
+    <PackageTags>dotnet interactive</PackageTags>
+    <PackageProjectUrl>https://github.com/IvanAntipov/Ant.Dotnet.Interactive.Helpers</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/IvanAntipov/Ant.Dotnet.Interactive.Helpers</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Ant.Dotnet.Interactive.Helpers</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.Interactive" Version="1.0.0-beta.23165.2" />
+    <PackageReference Include="Microsoft.DotNet.Interactive.Formatting" Version="1.0.0-beta.23165.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
